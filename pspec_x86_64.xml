@@ -1,0 +1,39 @@
+<PISI>
+    <Source>
+        <Name>fahviewer</Name>
+        <Packager>
+            <Name>Arjen Runsink</Name>
+            <Email>arjen.runsink@gmail.com</Email>
+        </Packager>
+        <License>N/A</License>
+        <Summary xml:lang="en">Folding @ Home Viewer</Summary>
+        <Description xml:lang="en">Folding @ Home Viewer
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>fahviewer</Name>
+        <Summary xml:lang="en">Folding @ Home Viewer</Summary>
+        <Description xml:lang="en">Folding @ Home Viewer
+</Description>
+        <Files>
+            <Path fileType="executable">/usr/bin/FAHViewer</Path>
+            <Path fileType="data">/usr/share/applications/FAHViewer.desktop</Path>
+            <Path fileType="doc">/usr/share/doc/fahviewer/LICENSE</Path>
+            <Path fileType="doc">/usr/share/doc/fahviewer/README.md</Path>
+            <Path fileType="doc">/usr/share/doc/fahviewer/changelog.Debian.gz</Path>
+            <Path fileType="doc">/usr/share/doc/fahviewer/changelog.gz</Path>
+            <Path fileType="data">/usr/share/pixmaps/FAHViewer-64.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/FAHViewer.icns</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-03-22</Date>
+            <Version>7.5</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Arjen Runsink</Name>
+            <Email>arjen.runsink@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
